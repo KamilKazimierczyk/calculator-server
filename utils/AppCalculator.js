@@ -58,8 +58,8 @@ class AppCalculator {
           const secondNumber = parseFloat(queryToSolve.split(sign)[1]);
 
           const result = this.calculate(
-            parseInt(firstNumber),
-            parseInt(secondNumber),
+            parseFloat(firstNumber),
+            parseFloat(secondNumber),
             sign
           );
 
